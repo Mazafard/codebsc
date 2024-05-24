@@ -1,8 +1,3 @@
-## Problem:
-Code that utilizes many goroutines can run the risk of bombarding some remote resource with hundreds or even thousands of goroutines. 
-
-A bombarded system can quickly become overloaded to the point where you experience extreme latency spikes or worse service outages.
-
 ## Revised code
 
 In the revised version, I replaced the mutexes with semaphores to handle concurrency control more effectively. 
